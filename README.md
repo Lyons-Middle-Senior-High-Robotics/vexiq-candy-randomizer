@@ -11,7 +11,7 @@ The suspense builds as the final LED stays illuminated... Did you choose wisely?
 
 But fear not, even if your guess doesn't align, it's all part of the fun! A lighthearted fail song will play, encouraging you to jump right back in for another round of colorful, musical mayhem!
 
-So, are you ready to put your color recall to the ultimate test? The VEX IQ Color Tone Challenge awaits!
+So, are you ready to put your color guessing to the ultimate test? The VEX IQ Candy Randomizer Challenge awaits!
 
 ## Download Source
 [VEX IQ Block Source Code](./CandyRandomizer.iqblocks)
