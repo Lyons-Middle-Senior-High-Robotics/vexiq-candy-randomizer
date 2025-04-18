@@ -19,25 +19,25 @@ So, are you ready to put your color guessing to the ultimate test? The VEX IQ Ca
 [VEX IQ Python Source Code](./CandyRandomizer.py)
 
 ## Code
-### The Big Picture:
+### The Big Picture
 
 As you can see in the Code Overview image, the code is structured into distinct event-driven blocks that handle different stages of the game, from initial setup to the final outcome and reset.
 
 ![Code Overview](images/code_overview.png)
 
-### Initialization (when started block):
+### Initialization (when started block)
 
 This block sets the initial state of the game.
 It starts by turning all three touch LEDs (red, green, and blue) ON. This likely serves as a visual cue during the color selection phase.
 Crucially, it initializes a list (or array) called Colors. This array is populated with the three possible color choices: red, green, and blue. This list will be the source from which the random color sequence is generated.
 
-### When Touch LED X pressed (Red, Green, and Blue):
+### When Touch LED X pressed (Red, Green, and Blue)
 
 Each of these blocks is triggered when the corresponding touch LED is pressed.
 Inside each block, the code records the value (color) of the pressed LED. This represents the user's color selection for the round.
 To provide immediate feedback, the pressed LED is then briefly blinked, confirming to the user that their choice has been registered.
 
-### When Bumper pressed:
+### When Bumper pressed
 This block initiates the core gameplay sequence when the bumper button on the VEX IQ brain is pressed.
 For the next 5 seconds, a loop runs to generate the color and tone sequence:
 Inside the loop, a random LED (red, green, or blue) is selected.
@@ -46,13 +46,13 @@ Simultaneously, a corresponding tone is played, adding the auditory element to t
 
 This process of randomly selecting an LED and playing a tone repeats until the 5-second duration is over.
 
-### Determining the Outcome: Once the 5 seconds are up:
+### Determining the Outcome: Once the 5 seconds are up
 The code checks if the color the user initially chose (stored when the touch LED was pressed) matches the color of the very last LED that was illuminated in the random sequence.
 
 If there's a match, the triumphant tada sound is played, signaling a win!
 If the chosen color doesn't match the final color, the wrong way sound is played, indicating an incorrect guess.
 
-### Game Reset: 
+### Game Reset
 After a 3-second delay, the game automatically resets, returning to the initial state where the touch LEDs are lit, ready for the user to make a new color selection and start another round.
 
 
