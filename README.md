@@ -16,7 +16,7 @@ So, are you ready to put your color recall to the ultimate test? The VEX IQ Colo
 ## Download Source
 [VEX IQ Block Source Code](./CandyRandomizer.iqblocks)
 
-[VEX IQ Python Source Code]()
+[VEX IQ Python Source Code](./CandyRandomizer.py)
 
 ## Code
 ### The Big Picture:
