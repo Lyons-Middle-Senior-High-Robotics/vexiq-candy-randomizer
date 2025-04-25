@@ -1,5 +1,5 @@
 # VEX IQ Candy Randomizer
-![Place Holder](images/candy_randomizer.png)
+![Place Holder](images/blinking.gif)
 
 First, pick your lucky color: will it be vibrant red, cool green, or brilliant blue? Make your choice by tapping the corresponding touch LED.
 
