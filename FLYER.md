@@ -1,4 +1,4 @@
-# Unleash the Candy Randomizer Challenge!
+# Build Instrcutions for the Randomizer Challenge
 
 <div align="center">
 Test your guessing skills with our fun VEX IQ game! Select a color, hit the button, and see if your guess is right or wrong.
